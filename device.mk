@@ -67,3 +67,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lge/alphaplus/alphaplus-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
